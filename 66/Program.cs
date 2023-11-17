@@ -2,6 +2,7 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
+
 int ReadInt(string msg)
 {
     Console.Write(msg);
@@ -9,23 +10,23 @@ int ReadInt(string msg)
     return result;
 }
 
-int CalcSumm (int m, int n)
+int M=ReadInt("Введите число M: ");
+int N=ReadInt("Введите число N: ");
+
+int CalcSumm (int M, int N)
 {
-    if (m == n)
+    if (M == N)
     {
-        return m;
+        return M;
     }
-    return m + CalcSumm (m + 1, n);
+    return M + CalcSumm (M + 1, N);
 }
 
-int m=ReadInt("Введите первое число: ");
-int n=ReadInt("Введите второе число: ");
-
-if (m > n)
+if (M > N)
 {
-    int temp = m;
-    m = n;
-    n = temp;
+    int temp = M;
+    M = N;
+    N = temp;
 }
 
-Console.WriteLine(CalcSumm (m, n));
+Console.WriteLine(CalcSumm (M, N));

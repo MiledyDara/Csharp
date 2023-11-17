@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\9\\4\\4.csproj": {}
+    "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\Result\\68\\4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\9\\4\\4.csproj": {
+    "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\Result\\68\\4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\9\\4\\4.csproj",
+        "projectUniqueName": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\Result\\68\\4.csproj",
         "projectName": "4",
-        "projectPath": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\9\\4\\4.csproj",
+        "projectPath": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\Result\\68\\4.csproj",
         "packagesPath": "C:\\Users\\Наталья\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\9\\4\\obj\\",
+        "outputPath": "C:\\Users\\Наталья\\Обучение\\Знакомство с языками программирования\\HomeWork\\Result\\68\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Наталья\\AppData\\Roaming\\NuGet\\NuGet.Config"

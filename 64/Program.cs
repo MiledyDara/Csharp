@@ -2,31 +2,32 @@
 // M = 1; N = 5 -> "2, 4"
 // M = 4; N = 8 -> "4, 6, 8"
 
+
 int ReadInt(string msg)
 {
     Console.Write(msg);
     int result = Convert.ToInt32(Console.ReadLine());
     return result;
 }
-    int m = ReadInt("Введите число m: ");
-    int n = ReadInt("Введите число n: ");
+    int M = ReadInt("Введите число M: ");
+    int N = ReadInt("Введите число N: ");
     
 
 {
-void printNumbers(int m, int n)
+void printNumbers(int M, int N)
 {
     
-    if (m > n)
+    if (M > N)
     {
         return;
     }
-    if (m % 2 == 0)
+    if (M % 2 == 0)
     {
-        System.Console.Write($"{m} \t");
+        System.Console.Write($"{M} \t");
     }
-    printNumbers(m+1, n);
+    printNumbers(M+1, N);
 }
-    printNumbers (m, n);
+    printNumbers (M, N);
 }
 
 
